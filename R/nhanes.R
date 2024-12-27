@@ -59,7 +59,7 @@ nhanes <- function(nh_table, includelabels = FALSE,
     nh_year <- .get_year_from_nh_table(nh_table)
     
     if(startsWith(nh_table, "Y_")) {
-      url <- paste0('https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public', nh_year, '/DataFiles/', nh_table, '.XPT')
+      url <- paste0('https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/', nh_year, '/DataFiles/', nh_table, '.XPT')
     } else {
       url <- paste0(nhanesTableURL, nh_year, '/DataFiles/', nh_table, '.XPT')
     }
