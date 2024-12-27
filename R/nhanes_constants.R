@@ -14,7 +14,7 @@
 ab_nhanesTableURL <- function(x) {
     if (!missing(x)) stop("Invalid assignment")
     paste0(Sys.getenv("NHANES_TABLE_BASE", unset = "https://wwwn.cdc.gov"),
-           "/Nchs/Nhanes/Public/")
+           "/Nchs/Data/Nhanes/Public/")
 }
 
 ab_nhanesManifestPrefix <- function(x) {
