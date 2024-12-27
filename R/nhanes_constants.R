@@ -8,7 +8,7 @@
 ## regular character variables, we implement them as active bindings
 ## (see .onLoad() in zzz.R).
 
-nhanesTableURL <- 'https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/'
+##nhanesTableURL <- 'https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/'
 ## nhanesManifestPrefix <- 'https://wwwn.cdc.gov'
 
 ab_nhanesTableURL <- function(x) {
