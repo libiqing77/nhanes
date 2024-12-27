@@ -23,7 +23,7 @@ ab_nhanesManifestPrefix <- function(x) {
 }
 
 
-nhanesURL <- 'https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/'
+nhanesURL <- 'https://wwwn.cdc.gov/Nchs/Nhanes/'
 dataURL <- 'https://wwwn.cdc.gov/Nchs/Nhanes/search/DataPage.aspx'
 ladDataURL <- 'https://wwwn.cdc.gov/Nchs/Nhanes/search/DataPage.aspx?Component=LimitedAccess'
 dxaURL  <- "https://wwwn.cdc.gov/nchs/data/nhanes/dxa/"
