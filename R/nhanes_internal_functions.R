@@ -29,9 +29,9 @@
       }
       return(data_idx[idx])
     } else { ## Underscore not 2nd to last. Assume table is from the first set.
-      return("1999-2000")}
+      return("1999")}
   } else { #If there are no underscores then table must be from first survey
-    return("1999-2000")
+    return("1999")
   }
   ## FIXME check: may be simpler to just check endsWith("_A"), endsWith("_B"), etc
 }
